@@ -1,0 +1,19 @@
+{
+    "name": "guagualai/query-builder-helper",
+    "description": "組出 SQL 語法以及把參數帶上去",
+    "type": "libary",
+    "require": {
+        "php": ">= 7.4",
+        "laravel/laravel": ">= 6"
+    },
+    "require-dev": {
+        "php": ">= 7.4",
+        "laravel/laravel": ">= 6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Guagualai\\QueryBuilderHelper\\": "src/"
+        }
+    }
+}
