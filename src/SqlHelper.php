@@ -11,7 +11,7 @@ use Illuminate\Database\Query\Builder;
 class SqlHelper
 {
     /**
-     * Get SQL with bindings.
+     * Get SQL Query with bindings.
      *
      * @param Builder|EloquentBuilder $queryBuilder
      * @return string
